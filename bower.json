@@ -1,0 +1,23 @@
+{
+  "name": "css-sets",
+  "homepage": "https://github.com/thatisuday/css-sets",
+  "authors": [
+    "Uday Hiwarale <uhiwarale@gmail.com>"
+  ],
+  "description": "Simple class sets for easy css styles",
+  "main": "sets.min.css",
+  "keywords": [
+    "css",
+    "styles",
+    "sets",
+    "easy"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
