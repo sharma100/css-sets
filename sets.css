@@ -1721,6 +1721,21 @@
 
 /**************************************************************************************/
 
+/* Safe layers */
+
+._safe_layer:after {
+  content: " ";
+  display: block;
+  z-index: 5;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/**************************************************************************************/
+
 /* Rectangle Boxes */
 
 ._sqr_box {
@@ -1766,40 +1781,6 @@
   top: 0;
   right: 0;
   bottom: 0;
-}
-
-/**************************************************************************************/
-
-/* Hover container */
-
-._hov_show ._hov_showd {
-  opacity: 0!important;
-  -webkit-font-smoothing: antialiased;
-}
-
-._hov_show,._hov_showd,:hover {
-  transition: all 0.2s ease-in-out;
-  -webkit-font-smoothing: antialiased;
-}
-
-._hov_show:hover ._hov_showd {
-  opacity: 1!important;
-  -webkit-font-smoothing: antialiased;
-}
-
-/**************************************************************************************/
-
-/* Safe layers */
-
-._safe:after {
-  content: " ";
-  display: block;
-  z-index: 5;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
 }
 
 /**************************************************************************************/
@@ -1876,6 +1857,25 @@
   width: 150px;
   height: 150px;
   overflow: hidden;
+}
+
+/**************************************************************************************/
+
+/* Hover container */
+
+._hov_show ._hov_showd {
+  opacity: 0!important;
+  -webkit-font-smoothing: antialiased;
+}
+
+._hov_show,._hov_showd,:hover {
+  transition: all 0.2s ease-in-out;
+  -webkit-font-smoothing: antialiased;
+}
+
+._hov_show:hover ._hov_showd {
+  opacity: 1!important;
+  -webkit-font-smoothing: antialiased;
 }
 
 /**************************************************************************************/
