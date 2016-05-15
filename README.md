@@ -1,11 +1,11 @@
 # css-sets
-Out of the box - plug and play css class sets
+Out of the box - plug and play css class sets (3.6kb gzip compressed)
 
 # Install
 ```
 bower install css-sets
 ```
-Or include `sets.min.css` file
+Or include `sets.min.css` file or via `https://rawgit.com/thatisuday/css-sets/master/sets.min.css`
 
 # What's in for you?
 > Font color, Font color on hover, background color, font size, line height, letter, width, height etc.
