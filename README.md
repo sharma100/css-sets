@@ -7,19 +7,19 @@ bower install css-sets
 ```
 Or include `sets.min.css` file or via `https://rawgit.com/thatisuday/css-sets/master/sets.min.css`
 
-# What's in for you?
-> Font color, Font color on hover, background color, font size, line height, letter, width, height etc.
+# How does it work?
+> You get easy classes to set Font color, Font color on hover, background color, font size, line height, letter, width, height etc.
 >
-> All classes have a prefix for example `_color_` for font color so `_color_000` means black font or `font-color:#000`
+> All class sets have a prefix. For example, `_color_` prefix for font color hence `_color_000` means black font or `font-color:#000`
 
 # Style Sets
 ## Color
 `_color_fff`,`_color_f5f5f5`,`_color_eee`,`_color_ddd`,`_color_ccc`,`_color_bbb`,`_color_aaa`,`_color_999`,`_color_888`,`_color_777`,`_color_666`,`_color_555`,`_color_444`,`_color_333`,`_color_222`,`_color_111`,`_color_000`
 
-## Color on *Hover*
+## Color on :Hover
 `_color_fff_hover`,`_color_f5f5f5_hover`,`_color_eee_hover`,`_color_ddd_hover`,`_color_ccc_hover`,`_color_bbb_hover`,`_color_aaa_hover`,`_color_999_hover`,`_color_888_hover`,`_color_777_hover`,`_color_666_hover`,`_color_555_hover`,`_color_444_hover`,`_color_333_hover`,`_color_222_hover`,`_color_111_hover`,`_color_000_hover`
 
-## Backgrond color
+## Background color
 `_bg_color_tr`,`_bg_color_fff`,`_bg_color_f2f2f2`,`_bg_color_fafafa`,`_bg_color_f5f5f5`,`_bg_color_eee`,`_bg_color_ddd`,`_bg_color_ccc`,`_bg_color_bbb`,`_bg_color_aaa`,`_bg_color_999`,`_bg_color_888`,`_bg_color_777`,`_bg_color_666`,`_bg_color_555`,`_bg_color_444`,`_bg_color_333`,`_bg_color_222`,`_bg_color_111`,`_bg_color_000`
 
 ## Font size
@@ -31,7 +31,7 @@ Or include `sets.min.css` file or via `https://rawgit.com/thatisuday/css-sets/ma
 ## Letter spacing
 `_ls_norm`,`_ls_1`,`_ls_2`,`_ls_3`
 
-## Text align
+## Text transform
 `_txt_ucs`,`_txt_lcs`,`_txt_cpt`
 
 ## Line height
@@ -42,6 +42,7 @@ Or include `sets.min.css` file or via `https://rawgit.com/thatisuday/css-sets/ma
 
 ## Margin
 `_m_0_a`,`_ma_0`,`_mt_0`,`_mt_5`,`_mt_10`,`_mt_15`,`_mt_20`,`_mt_25`,`_mt_30`,`_mt_35`,`_mt_40`,`_mt_50`,`_mb_0`,`_mb_5`,`_mb_10`,`_mb_15`,`_mb_20`,`_mb_25`,`_mb_30`,`_mb_35`,`_mb_40`,`_mb_50`,`_ml_a`,`_ml_0`,`_ml_5`,`_ml_10`,`_ml_15`,`_ml_20`,`_ml_25`,`_ml_30`,`_ml_35`,`_ml_40`,`_ml_50`,`_mr_a`,`_mr_0`,`_mr_5`,`_mr_10`,`_mr_15`,`_mr_20`,`_mr_25`,`_mr_30`,`_mr_35`,`_mr_40`,`_mr_50`
+> `_m_0_a` is for `{margin:0 auto;}`. Use to position element in the center.
 
 ## Display
 `_disp_i`,`_disp_ib`,`_disp_b`,`_disp_n`
@@ -60,9 +61,11 @@ Or include `sets.min.css` file or via `https://rawgit.com/thatisuday/css-sets/ma
 
 ## Border
 `_ba_1_eee`,`_bt_1_eee`,`_bb_1_eee`,`_bl_1_eee`,`_br_1_eee`,`_ba_1_ddd`,`_bt_1_ddd`,`_bb_1_ddd`,`_bl_1_ddd`,`_br_1_ddd`,`_ba_n`,`_ba_n_lc`,`_bl_n`,`_bl_n_lc`,`_br_n`,`_br_n_lc`,`_bt_n`,`_bt_n_lc`,`_bb_n`,`_bb_n_lc`
+> '_lc' suffix is for `last-child` element. Hence that class will only work if element is last immediate child to it's parent. Use it will any border class like `_bb_1_eee _bb_n_lc`, this will remove the border of element if it is the last child.
 
 ## Border radius
 `_br_0`,`_br_1`,`_br_2`,`_br_3`,`_br_4`,`_br_5`,`_br_100`
+> **100** in `_br_100` is **100%**. This is useful to make circles. 
 
 ## Overflow
 `_ovrf_h`,`_ovrf_a`,`_ovrf_s`,`_ovrf_y_h`,`_ovrf_x_h`,`_ovrf_y_a`,`_ovrf_x_a`
@@ -72,19 +75,19 @@ Or include `sets.min.css` file or via `https://rawgit.com/thatisuday/css-sets/ma
 
 ## Location (*left, top, right, bottom* properties)
 `_loc_lt`,`_loc_rt`,`_loc_lb`,`_loc_rb`,`_loc_ct`,`_loc_cc`,`_loc_cb`,`_loc_lc`,`_loc_rc`,`_loc_ct_nt`,`_loc_cc_nt`,`_loc_cb_nt`,`_loc_lc_nt`,`_loc_rc_nt`
+> Use position class with location class. Ex. `_pos_a _pos_lt` will yield `{position:absolute; left:0; top:0;}`
 
 ## Background size cover (with position)
 `_bsc_lt`,`_bsc_ltc`,`_bsc_lc`,`_bsc_lbc`,`_bsc_lb`,`_bsc_ct`,`_bsc_ctc`,`_bsc_cc`,`_bsc_cbc`,`_bsc_cb`,`_bsc_rt`,`_bsc_rtc`,`_bsc_rc`,`_bsc_rbc`,`_bsc_rb`
 
 ## White space
 `_ws_nw`, `_ws_nw_elp`
-#### Note
-`_ws_nw_elp` will add ellipsis for overflowed text
+> `_ws_nw_elp` will add ellipsis for overflowed text
 
 ## Cursor
 `_cur_p`,`_cur_d`
 
-## Animate anchor links on hover
+## Animate anchor links on :hover
 `_a_hover_ul`, `_a_hover_b`
 
 ## Resize
@@ -113,52 +116,22 @@ Or include `sets.min.css` file or via `https://rawgit.com/thatisuday/css-sets/ma
 
 ## Safe Layer (For non selectable background content)
 `_safe_layer`
+> This will add a layer over the top of element and will protect element content being selected by the user
 
 ## Rectangle Boxes
 `_sqr_box > _box`,`_por_box > _box`,`_land_box > _box`
-#### Example
-Add `_sqr_box` for parent and `_box` for child element
+> Add `_sqr_box` for parent and `_box` for child element
 
 ## Thumbnail boxes
 `_thmb_box_30`,`_thmb_box_35`,`_thmb_box_40`,`_thmb_box_45`,`_thmb_box_50`,`_thmb_box_55`,`_thmb_box_60`,`_thmb_box_65`,`_thmb_box_70`,`_thmb_box_90`,`_thmb_box_120`,`_thmb_box_150`
 
 ## Hover show container
 `_hov_show > _hov_showd`
-#### Example
-Add `_hov_show` for parent and `_hov_showd` for child element
+> Add `_hov_show` for parent and `_hov_showd` for child element
 
-## Elements spacing (Vetical & Horizontal)
-`_elem_spc_10`,`_elem_v_spc_10`,`_elem_spc_15`,`_elem_v_spc_15`,`_elem_spc_20`,`_elem_v_spc_20`,`_elem_spc_25`,`_elem_v_spc_25`,`_elem_spc_30`,`_elem_v_spc_30`,`_elem_spc_35`,`_elem_v_spc_35`,`_elem_spc_40`,`_elem_v_spc_40`
+## Elements Gutter (Add a gap between elements) [*vertical & horizontal*]
+`_gutter_10`,`_gutter_v_10`,`_gutter_15`,`_gutter_v_15`,`_gutter_20`,`_gutter_v_20`,`_gutter_25`,`_gutter_v_25`,`_gutter_30`,`_gutter_v_30`,`_gutter_35`,`_gutter_v_35`,`_gutter_40`,`_gutter_v_40`
+> Add this class to every element that need to be spaced.
 
 ## Vertically align middle box
 `_valign_m_box`
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
