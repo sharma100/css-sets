@@ -54,7 +54,7 @@ Or include `sets.min.css` file or via `https://rawgit.com/thatisuday/css-sets/ma
 `_txta_c`,`_txta_l`,`_txta_r`
 
 ## Vertical Align
-`_valign_m`,`_valign_t`,`_valign_b`
+`_va_m`,`_va_t`,`_va_b`
 
 ## Outline
 `_outl_n`
@@ -86,6 +86,9 @@ Or include `sets.min.css` file or via `https://rawgit.com/thatisuday/css-sets/ma
 
 ## Cursor
 `_cur_p`,`_cur_d`
+
+## Text decoration
+`_txtd_n`,`_txtd_ul`,`_txtd_lt`
 
 ## Animate anchor links on :hover
 `_a_hover_ul`, `_a_hover_b`
@@ -126,12 +129,12 @@ Or include `sets.min.css` file or via `https://rawgit.com/thatisuday/css-sets/ma
 `_thmb_box_30`,`_thmb_box_35`,`_thmb_box_40`,`_thmb_box_45`,`_thmb_box_50`,`_thmb_box_55`,`_thmb_box_60`,`_thmb_box_65`,`_thmb_box_70`,`_thmb_box_90`,`_thmb_box_120`,`_thmb_box_150`
 
 ## Hover show container
-`_hov_show > _hov_showd`
-> Add `_hov_show` for parent and `_hov_showd` for child element
+`_hov_show > _elem`
+> Add `_hov_show` for parent and `_elem` for child element
 
 ## Elements Gutter (Add a gap between elements) [*vertical & horizontal*]
 `_gutter_10`,`_gutter_v_10`,`_gutter_15`,`_gutter_v_15`,`_gutter_20`,`_gutter_v_20`,`_gutter_25`,`_gutter_v_25`,`_gutter_30`,`_gutter_v_30`,`_gutter_35`,`_gutter_v_35`,`_gutter_40`,`_gutter_v_40`
 > Add this class to every element that need to be spaced.
 
 ## Vertically align middle box
-`_valign_m_box`
+`_va_m_box`

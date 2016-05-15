@@ -1052,15 +1052,15 @@
 
 /* Vertical Align */
 
-._valign_m {
+._va_m {
   vertical-align: middle!important;
 }
 
-._valign_t {
+._va_t {
   vertical-align: top!important;
 }
 
-._valign_b {
+._va_b {
   vertical-align: bottom!important;
 }
 
@@ -1443,6 +1443,22 @@
 
 ._cur_d {
   cursor: default;
+}
+
+/**************************************************************************************/
+
+/* Text Decoration */
+
+._txtd_n {
+  text-decoration: none;
+}
+
+._txtd_ul {
+  text-decoration: underline;
+}
+
+._txtd_lt {
+  text-decoration: line-through;
 }
 
 /**************************************************************************************/
@@ -1863,17 +1879,17 @@
 
 /* Hover container */
 
-._hov_show ._hov_showd {
+._hov_show ._elem {
   opacity: 0!important;
   -webkit-font-smoothing: antialiased;
 }
 
-._hov_show,._hov_showd,:hover {
+._hov_show,._elem,:hover {
   transition: all 0.2s ease-in-out;
   -webkit-font-smoothing: antialiased;
 }
 
-._hov_show:hover ._hov_showd {
+._hov_show:hover ._elem {
   opacity: 1!important;
   -webkit-font-smoothing: antialiased;
 }
@@ -1942,13 +1958,13 @@
 
 /* Vertical align middle box */
 
-._valign_m_box {
+._va_m_box {
   white-space: nowrap;
   overflow: hidden;
   font-size: 0px;
 }
 
-._valign_m_box:before {
+._va_m_box:before {
   content: "";
   display: inline-block;
   height: 100%;
