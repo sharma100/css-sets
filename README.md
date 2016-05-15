@@ -70,14 +70,16 @@ Or include `sets.min.css` file or via `https://rawgit.com/thatisuday/css-sets/ma
 ## Position
 `_pos_r`,`_pos_a`,`_pos_f`
 
-## Location _(**left, top, right, bottom** properties)_
+## Location (*left, top, right, bottom* properties)
 `_loc_lt`,`_loc_rt`,`_loc_lb`,`_loc_rb`,`_loc_ct`,`_loc_cc`,`_loc_cb`,`_loc_lc`,`_loc_rc`,`_loc_ct_nt`,`_loc_cc_nt`,`_loc_cb_nt`,`_loc_lc_nt`,`_loc_rc_nt`
 
-## Background size cover
+## Background size cover (with position)
 `_bsc_lt`,`_bsc_ltc`,`_bsc_lc`,`_bsc_lbc`,`_bsc_lb`,`_bsc_ct`,`_bsc_ctc`,`_bsc_cc`,`_bsc_cbc`,`_bsc_cb`,`_bsc_rt`,`_bsc_rtc`,`_bsc_rc`,`_bsc_rbc`,`_bsc_rb`
 
 ## White space
 `_ws_nw`, `_ws_nw_elp`
+#### Note
+`_ws_nw_elp` will add ellipsis for overflowed text
 
 ## Cursor
 `_cur_p`,`_cur_d`
@@ -109,17 +111,21 @@ Or include `sets.min.css` file or via `https://rawgit.com/thatisuday/css-sets/ma
 ## Black gradient transparent overlay
 `_ovrlay_grad_tb`,`_ovrlay_grad_bt`
 
-## Safe Layer (For non clickable background obstruction)
+## Safe Layer (For non selectable background content)
 `_safe_layer`
 
 ## Rectangle Boxes
 `_sqr_box > _box`,`_por_box > _box`,`_land_box > _box`
+#### Example
+Add `_sqr_box` for parent and `_box` for child element
 
 ## Thumbnail boxes
 `_thmb_box_30`,`_thmb_box_35`,`_thmb_box_40`,`_thmb_box_45`,`_thmb_box_50`,`_thmb_box_55`,`_thmb_box_60`,`_thmb_box_65`,`_thmb_box_70`,`_thmb_box_90`,`_thmb_box_120`,`_thmb_box_150`
 
 ## Hover show container
 `_hov_show > _hov_showd`
+#### Example
+Add `_hov_show` for parent and `_hov_showd` for child element
 
 ## Elements spacing (Vetical & Horizontal)
 `_elem_spc_10`,`_elem_v_spc_10`,`_elem_spc_15`,`_elem_v_spc_15`,`_elem_spc_20`,`_elem_v_spc_20`,`_elem_spc_25`,`_elem_v_spc_25`,`_elem_spc_30`,`_elem_v_spc_30`,`_elem_spc_35`,`_elem_v_spc_35`,`_elem_spc_40`,`_elem_v_spc_40`
