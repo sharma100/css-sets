@@ -1400,7 +1400,7 @@
 
 ._bsc_rtc {
   background-size: cover;
-  background-position: 0% 25%;
+  background-position: right 25%;
 }
 
 ._bsc_rc {
@@ -1424,6 +1424,7 @@
 
 ._ws_nw {
   white-space: nowrap;
+  overflow: hidden;
 }
 
 ._ws_nw_elp {
@@ -1443,6 +1444,30 @@
 
 ._cur_d {
   cursor: default;
+}
+
+._cur_zi {
+  cursor: zoom-in;
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+}
+
+._cur_zo {
+  cursor: zoom-out;
+  cursor: -webkit-zoom-out;
+  cursor: -moz-zoom-out;
+}
+
+._cur_gb {
+  cursor: grab;
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+}
+
+._cur_gbn {
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
+  cursor: -moz-grabbing;
 }
 
 /**************************************************************************************/
@@ -1739,6 +1764,17 @@
 
 /* Safe layers */
 
+._safe_layer {
+  -webkit-user-select: none;
+  /* Chrome all / Safari all */
+  -moz-user-select: none;
+     /* Firefox all */
+  -ms-user-select: none;
+      /* IE 10+ */
+  user-select: none;
+          /* Likely future */;
+}
+
 ._safe_layer:after {
   content: " ";
   display: block;
@@ -1896,7 +1932,7 @@
 
 /**************************************************************************************/
 
-/* Element Spacing */
+/* Elements Gutter */
 
 ._gutter_10:not(:last-child) {
   margin-right: 10px!important;

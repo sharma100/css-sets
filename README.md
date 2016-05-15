@@ -48,7 +48,7 @@ Or include `sets.min.css` file or via `https://rawgit.com/thatisuday/css-sets/ma
 `_disp_i`,`_disp_ib`,`_disp_b`,`_disp_n`
 
 ## Float
-`_fl_l`,`_fl_r`,`_fl_n`,
+`_fl_l`,`_fl_r`,`_fl_n`
 
 ## Text Align
 `_txta_c`,`_txta_l`,`_txta_r`
@@ -76,6 +76,8 @@ Or include `sets.min.css` file or via `https://rawgit.com/thatisuday/css-sets/ma
 ## Location (*left, top, right, bottom* properties)
 `_loc_lt`,`_loc_rt`,`_loc_lb`,`_loc_rb`,`_loc_ct`,`_loc_cc`,`_loc_cb`,`_loc_lc`,`_loc_rc`,`_loc_ct_nt`,`_loc_cc_nt`,`_loc_cb_nt`,`_loc_lc_nt`,`_loc_rc_nt`
 > Use position class with location class. Ex. `_pos_a _pos_lt` will yield `{position:absolute; left:0; top:0;}`
+>
+> Suffix `_nt` is for no translate. That mean element will not move to left, right, top or bottom to adjust it position. For example, `_loc_cc` will provide `{top:50%; left:50%; transform:translate:50% 50%;}` but `_loc_cc_nt` will provide only `{top:50%; left:50%;}`
 
 ## Background size cover (with position)
 `_bsc_lt`,`_bsc_ltc`,`_bsc_lc`,`_bsc_lbc`,`_bsc_lb`,`_bsc_ct`,`_bsc_ctc`,`_bsc_cc`,`_bsc_cbc`,`_bsc_cb`,`_bsc_rt`,`_bsc_rtc`,`_bsc_rc`,`_bsc_rbc`,`_bsc_rb`
@@ -85,7 +87,7 @@ Or include `sets.min.css` file or via `https://rawgit.com/thatisuday/css-sets/ma
 > `_ws_nw_elp` will add ellipsis for overflowed text
 
 ## Cursor
-`_cur_p`,`_cur_d`
+`_cur_p`,`_cur_d`,`_cur_zi`,`_cur_zo`,`_cur_gb`,`_cur_gbn`
 
 ## Text decoration
 `_txtd_n`,`_txtd_ul`,`_txtd_lt`
@@ -119,7 +121,7 @@ Or include `sets.min.css` file or via `https://rawgit.com/thatisuday/css-sets/ma
 
 ## Safe Layer (For non selectable background content)
 `_safe_layer`
-> This will add a layer over the top of element and will protect element content being selected by the user
+> This will add a layer over the top of element and will protect element content being selected or saved by the user.
 
 ## Rectangle Boxes
 `_sqr_box > _box`,`_por_box > _box`,`_land_box > _box`
@@ -138,3 +140,4 @@ Or include `sets.min.css` file or via `https://rawgit.com/thatisuday/css-sets/ma
 
 ## Vertically align middle box
 `_va_m_box`
+> `_va_m_box` is a helper class of parent container for inner content (ex. `img`) to align in middle using `vertical-align:middle` property or `_va_m` class on inner content.
