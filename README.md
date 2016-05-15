@@ -1,6 +1,12 @@
 # css-sets
 Out of the box - plug and play css class sets
 
+# Install
+```
+bower install css-sets
+```
+Or include `sets.min.css` file
+
 # What's in for you?
 > Font color, Font color on hover, background color, font size, line height, letter, width, height etc.
 >
