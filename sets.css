@@ -1920,7 +1920,7 @@
   -webkit-font-smoothing: antialiased;
 }
 
-._hov_show,._elem,:hover {
+._hov_show,._elem:hover {
   transition: all 0.2s ease-in-out;
   -webkit-font-smoothing: antialiased;
 }
