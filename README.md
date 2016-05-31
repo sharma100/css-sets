@@ -7,6 +7,16 @@ bower install css-sets
 ```
 Or include `sets.min.css` file or via `https://rawgit.com/thatisuday/css-sets/master/sets.min.css`
 
+
+# NPM & Build
+```
+$ npm install css-sets@0.0.4
+$ cd css-sets
+$ gulp
+```
+Both sets.css and sets.min.css will be exported to **dist** folder
+
+
 # How does it work?
 > You get easy classes to set Font color, Font color on hover, background color, font size, line height, letter, width, height etc.
 >
