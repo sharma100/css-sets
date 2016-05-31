@@ -712,6 +712,11 @@
 ._gutter_v_40:not(:last-child) {
   margin-bottom: 40px!important;
 }
+._height_100_a{
+  min-height: 100%!important;
+  height: auto!important;
+}
+
 ._height_100 {
   height: 100%!important;
 }
