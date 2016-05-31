@@ -1,0 +1,6 @@
+._clearfix:after {
+  content: " ";
+  display: block;
+  width: 0px;
+  clear: both;
+}

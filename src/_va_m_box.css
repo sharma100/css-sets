@@ -1,0 +1,12 @@
+._va_m_box {
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 0px;
+}
+
+._va_m_box:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}

@@ -1,0 +1,31 @@
+._cur_p {
+  cursor: pointer;
+}
+
+._cur_d {
+  cursor: default;
+}
+
+._cur_zi {
+  cursor: zoom-in;
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+}
+
+._cur_zo {
+  cursor: zoom-out;
+  cursor: -webkit-zoom-out;
+  cursor: -moz-zoom-out;
+}
+
+._cur_gb {
+  cursor: grab;
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+}
+
+._cur_gbn {
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
+  cursor: -moz-grabbing;
+}

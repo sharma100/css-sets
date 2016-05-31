@@ -1,0 +1,11 @@
+._ws_nw {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+._ws_nw_elp {
+  white-space: nowrap;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

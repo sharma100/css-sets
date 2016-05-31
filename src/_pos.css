@@ -1,0 +1,11 @@
+._pos_a {
+  position: absolute!important;
+}
+
+._pos_r {
+  position: relative!important;
+}
+
+._pos_f {
+  position: fixed!important;
+}

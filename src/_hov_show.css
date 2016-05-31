@@ -1,0 +1,14 @@
+._hov_show ._elem {
+  opacity: 0!important;
+  -webkit-font-smoothing: antialiased;
+}
+
+._hov_show,._elem,:hover {
+  transition: all 0.2s ease-in-out;
+  -webkit-font-smoothing: antialiased;
+}
+
+._hov_show:hover ._elem {
+  opacity: 1!important;
+  -webkit-font-smoothing: antialiased;
+}

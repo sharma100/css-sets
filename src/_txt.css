@@ -1,0 +1,11 @@
+._txt_ucs {
+  text-transform: uppercase!important;
+}
+
+._txt_lcs {
+  text-transform: lowercase!important;
+}
+
+._txt_cpt {
+  text-transform: capitalize!important;
+}

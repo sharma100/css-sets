@@ -1,0 +1,27 @@
+._ovrf_h {
+  overflow: hidden!important;
+}
+
+._ovrf_a {
+  overflow: auto!important;
+}
+
+._ovrf_s {
+  overflow: scroll!important;
+}
+
+._ovrf_y_h {
+  overflow-y: hidden!important;
+}
+
+._ovrf_x_h {
+  overflow-x: hidden!important;
+}
+
+._ovrf_y_a {
+  overflow-y: auto!important;
+}
+
+._ovrf_x_a {
+  overflow-x: auto!important;
+}

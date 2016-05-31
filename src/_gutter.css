@@ -1,0 +1,55 @@
+._gutter_10:not(:last-child) {
+  margin-right: 10px!important;
+}
+
+._gutter_v_10:not(:last-child) {
+  margin-bottom: 10px!important;
+}
+
+._gutter_15:not(:last-child) {
+  margin-right: 15px!important;
+}
+
+._gutter_v_15:not(:last-child) {
+  margin-bottom: 15px!important;
+}
+
+._gutter_20:not(:last-child) {
+  margin-right: 20px!important;
+}
+
+._gutter_v_20:not(:last-child) {
+  margin-bottom: 20px!important;
+}
+
+._gutter_25:not(:last-child) {
+  margin-right: 25px!important;
+}
+
+._gutter_v_25:not(:last-child) {
+  margin-bottom: 25px!important;
+}
+
+._gutter_30:not(:last-child) {
+  margin-right: 30px!important;
+}
+
+._gutter_v_30:not(:last-child) {
+  margin-bottom: 30px!important;
+}
+
+._gutter_35:not(:last-child) {
+  margin-right: 35px!important;
+}
+
+._gutter_v_35:not(:last-child) {
+  margin-bottom: 35px!important;
+}
+
+._gutter_40:not(:last-child) {
+  margin-right: 40px!important;
+}
+
+._gutter_v_40:not(:last-child) {
+  margin-bottom: 40px!important;
+}

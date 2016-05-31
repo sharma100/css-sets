@@ -1,0 +1,74 @@
+._bsc_lt {
+  background-size: cover;
+  background-position: left top;
+}
+
+._bsc_ltc {
+  background-size: cover;
+  background-position: left 25%;
+}
+
+._bsc_lc {
+  background-size: cover;
+  background-position: left center;
+}
+
+._bsc_lbc {
+  background-size: cover;
+  background-position: left 75%;
+}
+
+._bsc_lb {
+  background-size: cover;
+  background-position: left bottom;
+}
+
+._bsc_ct {
+  background-size: cover;
+  background-position: center top;
+}
+
+._bsc_ctc {
+  background-size: cover;
+  background-position: 50% 25%;
+}
+
+._bsc_cc {
+  background-size: cover;
+  background-position: center center;
+}
+
+._bsc_cbc {
+  background-size: cover;
+  background-position: center 75%;
+}
+
+._bsc_cb {
+  background-size: cover;
+  background-position: center bottom;
+}
+
+._bsc_rt {
+  background-size: cover;
+  background-position: right top;
+}
+
+._bsc_rtc {
+  background-size: cover;
+  background-position: right 25%;
+}
+
+._bsc_rc {
+  background-size: cover;
+  background-position: right center;
+}
+
+._bsc_rbc {
+  background-size: cover;
+  background-position: right 75%;
+}
+
+._bsc_rb {
+  background-size: cover;
+  background-position: right bottom;
+}

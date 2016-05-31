@@ -1,0 +1,15 @@
+._resize_n {
+  resize: none!important;
+}
+
+._resize_b {
+  resize: both!important;
+}
+
+._resize_v {
+  resize: vertical!important;
+}
+
+._resize_h {
+  resize: horizontal!important;
+}

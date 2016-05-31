@@ -1,0 +1,21 @@
+._safe_layer {
+  -webkit-user-select: none;
+  /* Chrome all / Safari all */
+  -moz-user-select: none;
+     /* Firefox all */
+  -ms-user-select: none;
+      /* IE 10+ */
+  user-select: none;
+          /* Likely future */;
+}
+
+._safe_layer:after {
+  content: " ";
+  display: block;
+  z-index: 5;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}

@@ -4,8 +4,8 @@
   "authors": [
     "Uday Hiwarale <uhiwarale@gmail.com>"
   ],
-  "description": "Simple class sets for easy css styles",
-  "main": "sets.min.css",
+  "description": "Out of the box - plug and play css helper class sets",
+  "main": "dist/sets.min.css",
   "keywords": [
     "css",
     "styles",

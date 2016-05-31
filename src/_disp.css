@@ -1,0 +1,15 @@
+._disp_i {
+  display: inline!important;
+}
+
+._disp_ib {
+  display: inline-block!important;
+}
+
+._disp_b {
+  display: block!important;
+}
+
+._disp_n {
+  display: none!important;
+}

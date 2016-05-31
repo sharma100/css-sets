@@ -1,0 +1,44 @@
+._sqr_box {
+  float: left;
+  width: 100%;
+  position: relative;
+  padding-bottom: 100%!important;
+}
+
+._sqr_box ._box {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+._por_box {
+  float: left;
+  width: 100%;
+  position: relative;
+  padding-bottom: 133.333%!important;
+}
+
+._por_box ._box {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+._land_box {
+  float: left;
+  width: 100%;
+  position: relative;
+  padding-bottom: 66.5%!important;
+}
+
+._land_box ._box {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}

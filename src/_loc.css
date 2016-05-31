@@ -1,0 +1,74 @@
+._loc_lt {
+  left: 0;
+  top: 0;
+}
+
+._loc_rt {
+  right: 0;
+  top: 0;
+}
+
+._loc_lb {
+  left: 0;
+  bottom: 0;
+}
+
+._loc_rb {
+  right: 0;
+  bottom: 0;
+}
+
+._loc_ct {
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+
+._loc_cc {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+._loc_cb {
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+
+._loc_lc {
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+._loc_rc {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+._loc_ct_nt {
+  left: 50%;
+  top: 0;
+}
+
+._loc_cc_nt {
+  left: 50%;
+  top: 50%;
+}
+
+._loc_cb_nt {
+  left: 50%;
+  bottom: 0;
+}
+
+._loc_lc_nt {
+  left: 0;
+  top: 50%;
+}
+
+._loc_rc_nt {
+  right: 0;
+  top: 50%;
+}
