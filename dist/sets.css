@@ -1654,6 +1654,7 @@
 ._txta_l {
   text-align: left!important;
 }
+
 ._txta_r {
   text-align: right!important;
 }
@@ -1783,18 +1784,9 @@
   overflow: hidden;
 }
 
-<<<<<<< HEAD:dist/sets.css
 ._ws_nw_elp {
   white-space: nowrap;
   max-width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-=======
-._va_m_box:before {
-  content: "";
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-}
->>>>>>> origin/master:sets.css
