@@ -1,6 +1,6 @@
 {
   "name": "css-sets",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Out of the box - plug and play css helper class sets",
   "main": "dist/sets.min.css",
   "scripts": {
